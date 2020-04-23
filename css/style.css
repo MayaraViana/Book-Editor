@@ -1,20 +1,23 @@
-.ql-toolbar, .ql-snow{
-    border: 0px !important; /*retirei a borda default do quill*/
+.editor-col {
+    background-color: #c2c2c2;
+    padding: 2%;
 }
 
-#dropFile{
-    border: 1px dashed #c2c2c2;
-    border-radius: 30px;
-    padding: 80px;
-    text-align: center;
-    color: #c2c2c2;
+#editor_area {   
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+}
+#editor_container {
+    width: 99%;
+    padding: 0;
+    border: 0;
 }
 
-.genericCover{
-    background-color: black;
-    width: 300%;
-    height: 150px;
-    color: white;
-    margin: 3%;
-    text-align: center;
+.vh100{
+    height: 100vh;
+}
+
+.fullheight{
+    height: 100vh !important;
 }
