@@ -21,3 +21,20 @@
 .fullheight{
     height: 100vh !important;
 }
+
+.book{
+    width: 220px;
+    height: 321px;
+    background-color: #c4c4c4;
+}
+
+.capa-pronta{
+    height: 161px;
+    background-color: #c4c4c4;
+}
+
+.page{
+    width: 637px;
+    height: 954px;
+    background-color: #c4c4c4;
+}

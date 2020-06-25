@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+
+    <!-- Include stylesheet of Trumbowyg-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.20.0/ui/trumbowyg.min.css">
+
+    <!-- Include Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Include stylesheet-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fullheight">
+    <div class="container-fluid">
+        <div class="row bg-light p-2">
+            <div class="col-md-4 d-flex flex-row">
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/voltar.svg">
+                    <span>Desfazer</span>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/ir.svg">
+                    <span>Refazer</span>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/lupa.svg">
+                    <span>Procurar</span>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/mais.svg">
+                    <span>Inserir</span>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+            <div class="col-md-2 d-flex flex-row">
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/imprimir.svg">
+                    <span>Configurações de impressão</span>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <img src="ionicons/v.svg">
+                    <span>Salvar</span>
+                </div>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 bg-light">
+                <div id="menu" class="">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1 bg-light text-center">
+                            <span>Conteúdo /</span>
+                        </li>
+                        <li class="nav-item pb-2">
+                            <input type="text" class="form-control" placeholder="Insira o titulo do livro">
+                        </li>
+                        <li class="nav-item p-1 bg-secondary text-white d-flex justify-content-between">
+                            <span>Elementos pré-textuais</span>
+                            <div class="dropdown dropright">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    +
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Falsa Página de Rosto</a>
+                                    <a class="dropdown-item" href="#">Verso da Falsa Página de Rosto (Logos)</a>
+                                    <a class="dropdown-item" href="#">Folha de Rosto</a>
+                                    <a class="dropdown-item" href="#">Verso da Folha de Rosto (Ficha de catálogo)</a>
+                                    <a class="dropdown-item" href="#">Dedicatória</a>
+                                    <a class="dropdown-item" href="#">Agradecimentos</a>
+                                    <a class="dropdown-item" href="#">Epígrafe</a>
+                                    <a class="dropdown-item" href="#">Prefácio</a>
+                                    <a class="dropdown-item" href="#">Apresentação</a>
+                                    <a class="dropdown-item" href="#">Sumário</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item p-1 bg-light">
+                            <span>Clique no sinal de mais para adicionar uma página de elementos pré-textuais, como
+                                dedicatória, epígrafe, direitos autorais, etc.</span>
+                        </li>
+                        <li class="nav-item p-1 bg-secondary text-white d-flex justify-content-between">
+                            <span>Corpo</span>
+                            <div class="dropdown dropright">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    +
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Introdução</a>
+                                    <a class="dropdown-item" href="#">Adicionar capítulo</a>
+                                    <a class="dropdown-item" href="#">Adicionar Subcapítulos</a>
+                                    <a class="dropdown-item" href="#">Conclusão</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item p-1 bg-light">
+                            <span>Clique no sinal de mais para adicionar elementos de corpo, como capitulos,
+                                subcapitulos, introdução, etc.</span>
+                        </li>
+                        <li class="nav-item p-1 bg-secondary text-white d-flex justify-content-between">
+                            <span>Elementos pós-textuais</span>
+                            <div class="dropdown dropright">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    +
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Glossário</a>
+                                    <a class="dropdown-item" href="#">Referência</a>
+                                    <a class="dropdown-item" href="#">Anexos</a>
+                                    <a class="dropdown-item" href="#">Colorfão</a>
+                                    <a class="dropdown-item" href="#">Índice</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item p-1 bg-light">
+                            <span>Clique no sinal de mais para adicionar uma página de elementos pós-textuais, como
+                                Glossário, Referência, Anexos, etc.</span>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link btn btn-dark" href="javascript:editor_preview()">Preview</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link btn btn-primary" href="./capa.html">Próximo</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link btn btn-light" href="#">Voltar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 editor-col">
+                <!-- Create the editor container -->
+                <div id="editor_area">
+                    <textarea id="editor_container"></textarea>
+                </div>
+            </div>
+            <div class="col-md-2 bg-light">
+                <div id="menu" class="">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1 bg-light text-center">
+                            <span>Propriedades do texto /</span>
+                        </li>
+                        <hr>
+                        <li class="nav-item d-flex flex-column">
+                            <span>Elementos na página</span>
+                            <button type="button" class="btn btn-dark m-2">Título do capitulo</button>
+                            <button type="button" class="btn btn-dark m-2">Subtitulo do capitulo</button>
+                        </li>
+                        <hr>
+                        <li class="nav-item d-flex flex-column">
+                            <span>Elementos padrão</span>
+                            <button type="button" class="btn btn-dark m-2">Subtitulo</button>
+                            <button type="button" class="btn btn-dark m-2">Citação</button>
+                            <button type="button" class="btn btn-dark m-2">Cabeçalho</button>
+                            <button type="button" class="btn btn-dark m-2">Notas de rodapé</button>
+                            <button type="button" class="btn btn-dark m-2">Legendas</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Include main JS -->
+    <script src="js/mainjs.js"></script>
+
+    <!-- Include JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Include the Trumbowyg library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.20.0/trumbowyg.min.js"></script>
+
+
+
+</body>
+
+</html>
