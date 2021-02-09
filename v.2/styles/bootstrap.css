@@ -1,0 +1,20 @@
+/*margin*/
+
+.ml-3{
+  margin-left: 1rem;
+}
+
+.margin-auto-0{
+    vertical-align: middle;
+}
+
+/*display*/
+
+.display-flex{
+  display: flex;
+}
+
+.display-space-between{
+    display: flex;
+    justify-content: space-between;
+}
