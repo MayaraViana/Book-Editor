@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    background-color: #DEDEDE;
+}
+
+.menu-superior{
+    height: 15vh;
+    background-color: white;
+}
+
+.corpo{
+    height: 85vh;
+    background-color: #DEDEDE;
+    display: flex;
+}
