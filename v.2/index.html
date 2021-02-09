@@ -1,30 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Editor v.2</title>
 
     <!--styles-->
-    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/menus/menu-abas.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/menus/menu-esquerdo.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/menus/menu-direito.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/corpo/edição.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menus/menu-abas.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menus/menu-esquerdo.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menus/menu-direito.css" />
+    <link rel="stylesheet" type="text/css" href="styles/corpo/edição.css" />
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="hero">
         <div class="menu-superior">
-            <div class="menu-abas"></div>
+            <div class="menu-abas">
+                <div class="display-flex margin-auto-0">
+                    <div class="display-flex">
+                        <span class="ml-3"><img src="assets/icons/seta-voltar.svg" alt="botão voltar"></span>
+                        <span class="ml-3"><img src="assets/icons/salvar.svg" alt="botão salvar"></span>
+                    </div>
+                    <div class="display-flex">
+                        <div><span>Capa</span></div>
+                        <div><span>Edição</span></div>
+                        <div><span>Vitrine</span></div>
+                    </div>
+                    <div class="display-flex">
+                        <span class="perfil-icon"></span>
+                        <span><img src="assets/icons/lupa.svg" alt="botão pesquisar"></span>
+                        <div>
+                            <span><img src="assets/icons/publicar.svg" alt="botão publicar"></span>
+                            <span>Publicar</span>
+                        </div>
+                        <div>
+                            <span><img src="assets/icons/tema.svg" alt="botão tema"></span>
+                            <span>Tema</span>
+                        </div>
+                        <div>
+                            <span><img src="assets/icons/visualizar.svg" alt="botão visualizar"></span>
+                            <span>Visualizar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="menu-formatação"></div>
         </div>
         <div class="corpo">
-            <div class="menu-esquerdo"></div>
+            <div class="menu-esquerdo">
+                <div class="pre-textuais">
+                    <span class="titulo-elementos">Pré-textual</span>
+                    <div>
+                        <span><img src="assets/icons/olho-aberto.svg" alt="visualizar"></span>
+                        <span>Falsa página de rosto</span>
+                    </div>
+                </div>
+                <div class="capitulos">
+                    <span class="titulo-elementos">Capítulos</span>
+                    <div>
+                        <span><img src="assets/icons/delete.svg" alt="delete"></span>
+                        <span>Capitulo 1</span>
+                    </div>
+                </div>
+                <div class="capitulos">
+                    <span class="titulo-elementos">Pós-textual</span>
+                    <div>
+                        <span><img src="assets/icons/olho-aberto.svg" alt="visualizar"></span>
+                        <span>Notas</span>
+                    </div>
+                </div>
+            </div>
             <div class="edição">
                 <div class="pagina"></div>
             </div>
-            <div class="menu-direito"></div>
+            <div class="menu-direito">
+                <div class="titulo-elementos">Elementos padrão</div>
+                <div>Título</div>
+                <div>Subtítulo</div>
+                <div>Crédito de autor</div>
+                <div>Epígrafe</div>
+                <div>Crédito da epígrafe</div>
+                <div>Primeiro parágrafo</div>
+                <div>Citação</div>
+                <div>Separador</div>
+                <div>Notas</div>
+                <div>Poema</div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
