@@ -1,4 +1,51 @@
 .menu-abas{
     height: 7.5vh;
     background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-abas-container-centro{
+    display: flex;
+    width: 50%;
+}
+.menu-abas-container-esquerda{
+    display: flex;
+    width: 10%;
+}
+.menu-abas-container-direita{
+    display: flex;
+    width: 30%;
+}
+.icon-voltar, .icon-salvar{ 
+    margin: 2%;
+}
+
+.aba{
+    padding: 1% 15%;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B4C4E;
+}
+.aba-ativa{
+    color: #000;
+}
+/*.aba-ativa-fundo{
+    position: absolute;
+    height: 7vh;
+    width: 200px;
+    border-radius: 2px;
+    background-color: white;
+}*/
+
+.perfil-icon{
+    height: 4vh;
+    width: 4vh;
+    border: 1px solid blueviolet;
+    border-radius: 50px;
+    background-color: blueviolet;
+}
+.itens-direita{
+    margin: 2%;
 }

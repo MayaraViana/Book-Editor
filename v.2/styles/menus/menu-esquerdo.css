@@ -1,5 +1,22 @@
 .menu-esquerdo{
     width: 20%;
     background-color: white;
-    height: 85vh;
+}
+
+.titulo-elementos{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4B4C4E;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.sub-itens{
+    font-size: 14px;
+    color: #8D8D8D;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.sub-itens-icon{
+    margin-right: 2%;
 }
