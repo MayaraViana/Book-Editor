@@ -11,8 +11,12 @@
     <link rel="stylesheet" type="text/css" href="styles/menus/menu-abas.css" />
     <link rel="stylesheet" type="text/css" href="styles/menus/menu-esquerdo.css" />
     <link rel="stylesheet" type="text/css" href="styles/menus/menu-direito.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menus/menu-formatacao.css" />
     <link rel="stylesheet" type="text/css" href="styles/corpo/edição.css" />
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+
+    <!--quill style-->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,7 +35,8 @@
                     <div class="aba"><span>Capa</span></div>
                     <div class="aba aba-ativa">
                         <span class="aba-ativa-fundo"></span>
-                        <span>Edição</span></div>
+                        <span>Edição</span>
+                    </div>
                     <div class="aba"><span>Vitrine</span>
                     </div>
                 </div>
@@ -52,7 +57,24 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-formatação"></div>
+            <div class="menu-formatação">
+                <div id="toolbar">
+                    <button class="ql-bold"></button>
+                    <button class="ql-italic"></button>
+                    <button class="ql-underline"></button>
+                    <button class="ql-strike"></button>
+                    <button class="ql-link"></button>
+                    <span class="barra-vertical"></span>
+                    <button class="ql-script" value="sub"></button>
+                    <button class="ql-script" value="super"></button>
+                    <span class="barra-vertical"></span>
+                    <button class="ql-align"></button>
+                    <button class="ql-list" value="bullet"></button>
+                    <button class="ql-list" value="ordered"></button>
+                    <span class="barra-vertical"></span>
+                    <button class="ql-image"></button>
+                </div>
+            </div>
         </div>
         <div class="corpo">
             <div class="menu-esquerdo">
@@ -178,7 +200,13 @@
                 </div>
             </div>
             <div class="edição">
-                <div class="pagina"></div>
+                <div class="pagina">
+                    <div id="editor">
+                        <p>Hello World!</p>
+                        <p>Some initial <strong>bold</strong> text</p>
+                        <p><br></p>
+                    </div>
+                </div>
             </div>
             <div class="menu-direito">
                 <div class="titulo-menu-direito">Elementos padrão</div>
@@ -195,6 +223,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="quill.js"></script>
 </body>
 
 </html>
