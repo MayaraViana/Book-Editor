@@ -6,26 +6,28 @@
     align-items: center;
 }
 
-.menu-abas-container-centro{
-    display: flex;
-    width: 50%;
-}
 .menu-abas-container-esquerda{
     display: flex;
     width: 10%;
 }
+
+.menu-abas-container-centro{
+    display: flex;
+    width: 50%;
+}
+
 .menu-abas-container-direita{
     display: flex;
+    align-items: center;
     width: 30%;
 }
 .icon-voltar, .icon-salvar{ 
-    margin: 2%;
+    margin: 0 5%;
 }
 
 .aba{
-    padding: 1% 15%;
-    font-size: 18px;
-    line-height: 21px;
+    padding: 0 15%;
+    font-size: 16px;
     color: #4B4C4E;
 }
 .aba-ativa{
@@ -40,12 +42,12 @@
 }*/
 
 .perfil-icon{
-    height: 4vh;
-    width: 4vh;
-    border: 1px solid blueviolet;
+    height: 3.5vh;
+    width: 3.5vh;
+    border: 1px solid  #3E495E;;
     border-radius: 50px;
-    background-color: blueviolet;
+    background-color:  #3E495E;;
 }
 .itens-direita{
-    margin: 2%;
+    margin: 0 2%;
 }
