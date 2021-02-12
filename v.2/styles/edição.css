@@ -1,0 +1,47 @@
+.edição{
+    height: 85vh;
+    width: 60%;
+    background-color: #DEDEDE;
+}
+
+.pagina{
+    height: 90%;
+    width: 70%;
+    background-color: white;
+    margin: 5% auto;
+}
+
+.comentario-box{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 65%;
+    top: 30%;
+
+    background: #F2F2F2;
+    border: 1px solid #D3D3D3;
+    border-radius: 17px;
+
+    padding: 2%;
+}
+.perfil-icon-comentario{
+    width: 23px;
+    height: 23px;
+    border: 1px solid  #3E495E;
+    border-radius: 50px;
+    background-color:  #3E495E;
+    margin-right: 5%;
+}
+.texto-dados{
+    display: flex;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+.texto-comentario{
+    font-family: Roboto;
+    font-size: 12px;
+    color: #646464;
+
+}
