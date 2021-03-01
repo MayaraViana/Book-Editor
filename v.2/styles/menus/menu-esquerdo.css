@@ -20,3 +20,9 @@
 .sub-itens-icon{
     margin-right: 2%;
 }
+.sub-itens-icon-aberto{
+    display: block;
+}
+.sub-itens-icon-fechado{
+    display: none;
+}

@@ -47,6 +47,7 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
 
 * adicionar cabeçalho na pagina
 * adicionar barra de edição flutuante
+    aparentemente não é possivel colocar duas toolbars (https://quilljs.com/docs/modules/toolbar/). Porém me lembro de colcoar em código passados, perguntar na orientação.
 * programação adição de nova página ao escrever mais que uma página
 
 #### Menu direito

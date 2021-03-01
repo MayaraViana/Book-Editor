@@ -17,3 +17,7 @@ body{
     background-color: #DEDEDE;
     display: flex;
 }
+
+#sub{
+    display: block;
+}
