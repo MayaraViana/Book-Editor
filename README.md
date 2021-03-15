@@ -22,6 +22,9 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
     Menu Abas = rosa
     Menu Formatação = roxo
 
+## Grid 
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    
 ## Issues
     Issues são algumas tarefas que ainda não estão implementadas. 
 
