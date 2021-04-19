@@ -30,7 +30,7 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
 
 #### Geral
 
-* revisar mini bootastrap, adicionar classes necessárias e organizar o arquivo. 
+* revisar mini bootastrap, adicionar classes necessárias e organizar o arquivo. (in progress)
 
 #### Menu superior (menu abas)
 
