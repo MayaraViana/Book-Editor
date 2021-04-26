@@ -1,3 +1,15 @@
+/*grid*/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
 /*margin*/
 
 .ml-3{

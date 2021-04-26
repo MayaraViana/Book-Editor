@@ -24,6 +24,8 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
 
 ## Grid 
     https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    .row = display-flex
+    .col = display-flex direction collumn
     
 ## Issues
     Issues são algumas tarefas que ainda não estão implementadas. 
