@@ -4,23 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro page</title>
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+
 </head>
 
-<body>
-    <div class="row">
-        <div class="col">
-            <h1>Seja sem vindo!</h1>
-            <p>Esse é o editor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie sit amet metus
-                cursus suscipit.</p>
-        </div>
-        <div class="col">
-            <h2>Cadastre-se</h2>
-            <input placeholder="e-mail">
-            <input placeholder="usuário">
-            <input placeholder="senha">
-            <button>Cadastre-se</button>
-            <span>Já tem conta? Fazer login</span>
+<body class="m-0">
+    <div class="login">
+        <div class="row">
+            <div class="col h-100vh cinza-2-bg" style="width: 30%;">
+                <div class="m-2 mt-3">
+                    <h2 class="cinza-6 bold">Seja sem vindo!</h2>
+                    <p class="cinza-6">Esse é o editor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        molestie sit amet
+                        metus
+                        cursus suscipit.</p>
+                </div>
+            </div>
+            <div class="col cinza-1-bg align-v-center" style="width: 70%;">
+                <div class="m-1 mt-3" style="width: 60%;">
+                    <h2 class="cinza-6 bold">Cadastre-se</h2>
+                    <input placeholder="e-mail" class="input mb-1">
+                    <input placeholder="usuário" class="input mb-1">
+                    <input placeholder="senha" class="input mb-1">
+                    <div class="row align-flex-end align-v-center mb-3">
+                        <button class="btn">Cadastre-se</button>
+                    </div>
+                    <hr>
+                    <span class="row align-center mt-3 cinza-4">Já tem conta? Fazer login</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
