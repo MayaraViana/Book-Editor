@@ -22,11 +22,43 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
     Menu Abas = rosa
     Menu Formatação = roxo
 
-## Grid 
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    .row = display-flex
-    .col = display-flex direction collumn
+##  Bootstrap.css
+    O arquivo de bootstrap são classes pré-prontas de alguns estilos que se repetem durante o sistema e está dividido nas seguintes categorias:
+
+* inicial aplicando a font roboto em todo html (linhas 1-7)
+
+* grid (linhas 8-17)
+    Para fazer o grid trabalhei com a ideia de linhas e colunas usando flex box.
+    link para saber mais sobre flex box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+* alinhamento horizontal (linhas 19-34)
+    classes para alinhamento horizontal.
+
+* alinhamento vertical (linhas 35-41)
+    classes para alinhamento vertical.
+
+* util (linhas 43-49)
+    classes uteis e que não se enquandram e uma categoria especifica. 
+
+* margins (linhas 51-120)
+    classes de margin tambem dividas em todas as direções ou apenas direita, esquerda, top e bottom. 
+
+* cores (linhas 125-143)
+    classes da paleta de cores definida atualmente no figma. 
+    ![Tabela Cores](./assets-read-me/tabelacores.png)
     
+* cores background(linhas 145-163)
+    classes da paleta de cores definida atualmente no figma para usar em background.
+
+* input(linhas 166-175)
+    Estilo padronizado de input. Tdos os inputs do sistema devem ter a classe input.
+    Ex: <input class="input">
+
+* botão (linhas 145-163)
+    Estilo padronizado de botão. Tdos os botoẽs do sistema devem ter a classe btn.
+    Ex: <button class="btn"></button>
+
+
 ## Issues
     Issues são algumas tarefas que ainda não estão implementadas. 
 
