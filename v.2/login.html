@@ -5,22 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+
 </head>
 
-<body>
-    <div class="row">
-        <div class="col">
-            <h1>Seja sem vindo!</h1>
-            <p>Esse é o editor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie sit amet metus
-                cursus suscipit.</p>
-        </div>
-        <div class="col">
-            <h2>Login</h2>
-            <input placeholder="usuário">
-            <input placeholder="senha">
-            <a>Esquci minha senha</a>
-            <button>login</button>
-            <span>Não tem login ainda? Criar uma conta</span>
+<body class="m-0">
+    <div class="login">
+        <div class="row">
+            <div class="col h-100vh cinza-2-bg" style="width: 35%;">
+                <div class="m-2 mt-3">
+                    <h2 class="cinza-6 bold">Seja sem vindo!</h2>
+                    <p class="cinza-6">Esse é o editor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        molestie sit amet
+                        metus
+                        cursus suscipit.</p>
+                </div>
+            </div>
+            <div class="col cinza-1-bg align-v-center" style="width: 65%;">
+                <div class="m-1 mt-3" style="width: 70%;">
+                    <h2 class="cinza-6 bold">Login</h2>
+                    <input placeholder="usuário" class="input mb-1">
+                    <input placeholder="senha" class="input mb-1">
+                    <div class="row align-flex-end align-v-center mb-3">
+                        <a class="ml-1 mr-3 cinza-4  bold">Esqueci minha senha</a>
+                        <button class="btn" style="width: 50%;">Entrar</button>
+                    </div>
+                    <hr>
+                    <span class="row align-center mt-3 cinza-4">Não tem login ainda? Criar uma conta</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
