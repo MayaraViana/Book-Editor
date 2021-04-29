@@ -52,11 +52,11 @@ O arquivo de bootstrap são classes pré-prontas de alguns estilos que se repete
 
 * input(linhas 166-175)
     Estilo padronizado de input. Tdos os inputs do sistema devem ter a classe input.
-    Ex: <input class="input">
+    Ex: ˋ<input class="input">ˋ
 
 * botão (linhas 145-163)
     Estilo padronizado de botão. Tdos os botoẽs do sistema devem ter a classe btn.
-    Ex: <button class="btn"></button>
+    Ex: ˋ<button class="btn"></button>ˋ
 
 
 ## Issues
