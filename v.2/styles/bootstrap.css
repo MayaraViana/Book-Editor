@@ -40,15 +40,17 @@ button{
   align-items: center;
 }
 
-/*display-flex*/
+/*util*/
 .display-flex{
   display: flex;
 }
-
-/*height 100vh*/
 .h-100vh{
   height: 100vh;
 }
+.bold{
+  font-weight: 700;
+}
+
 
 /*margin*/
 .margin-auto-0{
@@ -119,14 +121,6 @@ button{
   .ml-3{
     margin-left: 3rem;
   }
-
-/*fonts*/
-.roboto{
-  font-family: 'Roboto', sans-serif;
-}
-.bold{
-  font-weight: 700;
-}
 
 /*cores*/
 .cinza-1{
