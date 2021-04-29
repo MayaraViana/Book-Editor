@@ -23,7 +23,7 @@ O código se encontra dividido por componentes: menu superior (sendo subdividido
     Menu Formatação = roxo
 
 ##  Bootstrap.css
-    O arquivo de bootstrap são classes pré-prontas de alguns estilos que se repetem durante o sistema e está dividido nas seguintes categorias:
+O arquivo de bootstrap são classes pré-prontas de alguns estilos que se repetem durante o sistema e está dividido nas seguintes categorias:
 
 * inicial aplicando a font roboto em todo html (linhas 1-7)
 
